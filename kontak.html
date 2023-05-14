@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <div class="logo">ALAMANDA TAILOR</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tentangkami.html">About Me</a></li>
+                    <li><a href="layanan.html">Service</a></li>
+                    <li><a href="kontak.html" class="active">Contact</a></li>
+                    <li><a type="button" onclick="out()" href="login.html">LogOut</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </div>
+        </header>
+        <!-- Akhir -->
+        <!-- Konten -->
+        <div class="container">
+            <div class="kartu-container">
+                <div class="left">
+                    <div class="left-container">
+                        <h2 style="color: white;">Tentang Kami</h2>
+                        <p>Alamanda Tailor merupakan Sebuah usaha dagang dalam kategori perancangan tata busana yang sudah
+                            berdiri
+                        sejak tahun 1984.</p> <br>
+                        <p>Bantu kami dengan membeli dan menggunakan produk-produk karya anak bangsa.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-container">
+                        <form action="">
+                            <h2 style="text-align: center;">Hubungi Kami</h2>
+                            <input type="text" placeholder="Nama">
+                            <input type="email" placeholder="Email">
+                            <textarea placeholder="Pesan"></textarea><br>
+                            <button style="margin-left: 10px;">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Akhir -->
+            <div id="copyright">
+                <div class="wrapper">
+                    &copy; 2023. <b>Alamanda Tailor</b>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir -->
+        <script src="jquery.js" type="text/javascript"></script>
+    </body>
+</html>

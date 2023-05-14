@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">ALAMANDA TAILOR</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="layanan.html">Service</a></li>
+                <li><a href="kontak.html">Contact</a></li>
+                <li><a type="button" onclick="out()" href="login.html">LogOut</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <!-- Akhir -->
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="img/7.jpg" style="width: 40%; margin-right: 10px; border-radius: 20px; margin-top: 50px;">
+            <div class="kolom">
+                <h2>UD. ALAMANDA TAILOR</h2>
+                <p>Sebuah usaha dagang dalam kategori perancangan tata busana yang sudah berdiri
+                    sejak tahun 1984.</p>
+            </div>
+        </section>
+        <!-- untuk tutors -->
+        <section id="tutors">
+            <div class="tengah">
+                <h2>Pemegang Tahta Usaha</h2>
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="img/3.jpg" alt="">
+                        <p><b>Umi Muzayatin</b></p>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="img/345673075_212476311542758_1997899499867569990_n.jpg" alt="">
+                        <p>Jazilatul Izza</p>
+                        <p>CFO</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="img/1.jpg" alt="">
+                        <p>Mohammad Nafis</p>
+                        <p>CIO</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="img/4.jpg" alt="">
+                        <p>Silma Al-Karimy</p>
+                        <p>CMO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2023. <b>Alamanda Tailor</b>
+        </div>
+    </div>
+    <!-- Akhir -->
+    <script src="jquery.js" type="text/javascript"></script>
+</body>
+
+</html>
