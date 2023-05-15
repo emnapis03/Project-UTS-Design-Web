@@ -8,7 +8,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  
 }
 
 header {
@@ -119,9 +118,9 @@ header nav ul li a.active {
   margin-top: 30px;
   box-shadow: 0px 0px 20px darkgrey;
 }
-.card img{
+.card img {
   height: 250px;
-  
+
   object-fit: cover;
 }
 
@@ -161,6 +160,7 @@ section {
   margin: auto;
   display: flex;
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .kolom {
@@ -216,6 +216,7 @@ p {
 .tengah {
   text-align: center;
   width: 100%;
+  margin-top: 100px;
 }
 
 .tutor-list {
@@ -391,10 +392,62 @@ button {
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform 80ms ease-out;
+  cursor: pointer;
 }
 button:hover {
   opacity: 0.7;
 }
 textarea {
   height: 90px;
+}
+
+.btn {
+  padding: 10px 60px;
+  background: #3f72af;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.popup {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.5s;
+}
+.open-popup {
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(10);
+}
+
+.popup img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #364f6b;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
